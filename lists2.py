@@ -7,3 +7,6 @@ for number in collection: # for each number in the collection
     result += number # result, which is my variable initialized with 0 is gonna receive the the number plus next number for each iteration
     #print(result) * just printing each sum considering each iteration
 print(f'The sum of the numbers of the list is {result}.') # final result using f strings. .
+
+
+# iterate, pass through each item of the collection, xd. .
