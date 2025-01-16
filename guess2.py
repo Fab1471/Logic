@@ -1,7 +1,10 @@
 from random import randint
 
 number = randint(1, 10)
-while True:
+
+got_it_right = False
+
+while got_it_right == False:
     #number = randint(1, 10)
     guess = int(input('Guess what number I thought of: '))
     #print(number)
@@ -11,6 +14,6 @@ while True:
         print('A little lower')
     if guess == number:
         print('Well done. You got it!')
-        break
+        got_it_right = True
     else:
         print('Try again!')
